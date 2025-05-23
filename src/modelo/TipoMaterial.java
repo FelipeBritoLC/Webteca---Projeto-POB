@@ -1,3 +1,5 @@
+package modelo;
+
 public class TipoMaterial {
     private String nome; //video, site, apostila, livro, slides, etc
 
@@ -14,7 +16,8 @@ public class TipoMaterial {
     }
 
     public String toString() {
-        return "Tipo Material [nome=" + nome + "]";
+        return "nome = " + nome;
     }
       
 }
+
